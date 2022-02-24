@@ -5,6 +5,11 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
+	"runArgs": [
+		// Set the name of the container. See https://github.com/microsoft/vscode-remote-release/issues/2485
+		"--name=${env:USERNAME}-test-node-devcontainer"
+	],
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint"
