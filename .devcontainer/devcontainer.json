@@ -11,7 +11,7 @@
 	],
 
 	// https://code.visualstudio.com/remote/advancedcontainers/develop-remote-host#_connect-using-the-docker-cli
-	"workspaceMount": "source=/home/${env:USERNAME}/test-node-devcontainer,target=/workspace,type=bind,consistency=cached"
+	"workspaceMount": "source=/home/${env:USERNAME}/test-node-devcontainer,target=/workspace,type=bind,consistency=cached",
 	"workspaceFolder": "/workspace",
 
 	// Add the IDs of extensions you want installed when the container is created.
